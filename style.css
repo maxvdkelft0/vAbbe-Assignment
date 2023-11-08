@@ -1,0 +1,41 @@
+/* CSS */
+
+body{
+    background: #000000;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px 20px 10px 20px;
+}
+
+.homeContainer {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.workButton {
+    padding: 10px 30px 10px 30px;
+    border-radius: 100px;
+    background-color: white;
+    border: 0px;
+}
+
+.workButton:hover {
+    background-color: rgb(220, 220, 220);
+    border: 0px;
+    cursor: pointer; 
+}
+
+.headImage {
+    height: 500px;
+    border-radius: 20px;
+}
+
+.workContainer{
+    height: 800px;
+    margin-left: 120px;
+    display: flex;
+}
+
+.workInfo {
+    padding-right: 50px;
+}
